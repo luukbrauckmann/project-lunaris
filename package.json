@@ -1,0 +1,13 @@
+{
+  "name": "project-lunaris",
+  "version": "1.0.0",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:astro": "npm --workspace=astro run dev",
+    "dev:scraper": "npm --workspace=scraper run dev",
+    "dev": "npm run dev:astro & npm run dev:scraper",
+    "build": "npm run build:astro & npm run build:scraper"
+  }
+}
