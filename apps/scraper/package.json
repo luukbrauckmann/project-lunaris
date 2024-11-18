@@ -1,17 +1,13 @@
 {
   "name": "scraper",
-  "version": "0.0.0",
-  "private": true,
+  "version": "0.0.1",
   "scripts": {
     "deploy": "wrangler deploy",
     "dev": "wrangler dev",
     "start": "wrangler dev",
-    "test": "vitest",
     "cf-typegen": "wrangler types"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20241112.0",
-    "typescript": "^5.5.2",
-    "wrangler": "^3.87.0"
+    "@cloudflare/workers-types": "^4.20241112.0"
   }
 }
